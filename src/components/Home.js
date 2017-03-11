@@ -21,13 +21,11 @@ class Home extends Component {
         <p>We have thousands of videos created by expert teachers on web design and front end development. Our library is continually refreshed with the latest on web technology so you will never fall behind.</p>
         <hr />
         <h3>Featured Teachers</h3>
-        <form>
           <form onSubmit={this.handleSubmit}>
             <input type="text" placeholder="Name"/>
             <input type="text" placeholder="Topic"/>
             <button type="submit">Go!</button>
           </form>
-        </form>
       </div>
     );
   }
